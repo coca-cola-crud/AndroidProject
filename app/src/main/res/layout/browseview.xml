@@ -1,0 +1,686 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                                                   xmlns:app="http://schemas.android.com/apk/res-auto"
+                                                   xmlns:tools="http://schemas.android.com/tools"
+                                                   android:layout_width="match_parent"
+                                                   android:layout_height="match_parent" android:visibility="visible"
+                                                   android:alpha="0.5" tools:layout_editor_absoluteY="89dp"
+                                                   android:background="#7BB3E1"
+>
+    <TableLayout android:layout_width="match_parent" android:layout_height="match_parent"
+                 android:layout_marginTop="100dp"
+                 android:layout_marginRight="70dp"
+                 android:layout_marginLeft="70dp"
+                 android:id="@+id/table1"
+    >
+        <TableRow android:id="@+id/row1" android:clickable="true">
+            <androidx.cardview.widget.CardView
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:foreground="?attr/selectableItemBackgroundBorderless"
+                    app:cardCornerRadius="10dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_width="140dp"
+                    android:layout_height="180dp"
+                    app:cardBackgroundColor="#D5DCDD"
+                    app:layout_constraintStart_toStartOf="parent" android:id="@+id/cardView"
+                    app:layout_constraintEnd_toStartOf="@+id/guideline12"
+                    app:layout_constraintBottom_toTopOf="@+id/guideline13" app:layout_constraintTop_toTopOf="parent">
+                <androidx.constraintlayout.widget.ConstraintLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="253dp"
+
+                >
+
+                    <RatingBar
+                            android:layout_width="76dp"
+                            android:layout_height="27dp" android:id="@+id/star"
+                            android:numStars="5"
+                            app:layout_constraintStart_toStartOf="parent" app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            android:maxHeight="45dp"
+                            android:maxWidth="45dp"
+                            style="?android:attr/ratingBarStyleSmall"
+                            app:layout_constraintTop_toBottomOf="@+id/workersname1"
+                            app:layout_constraintVertical_bias="0.0"/>
+                    <TextView
+                            android:text="姓名：沈丹宁"
+                            android:textStyle="bold"
+                            android:textColor="@color/black"
+                            android:layout_width="108dp"
+                            android:layout_height="25dp" android:id="@+id/workersname1"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            android:layout_marginBottom="40dp"
+                            android:gravity="center"
+                            app:layout_constraintTop_toBottomOf="@+id/imageView5"
+                            app:layout_constraintVertical_bias="0.0" app:layout_constraintHorizontal_bias="0.312"/>
+                    <ImageView
+                            android:layout_width="114dp"
+                            android:layout_height="131dp" app:srcCompat="@drawable/user" android:id="@+id/imageView5"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintVertical_bias="0.0" app:layout_constraintHorizontal_bias="0.384"/>
+                </androidx.constraintlayout.widget.ConstraintLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:foreground="?attr/selectableItemBackgroundBorderless"
+                    app:cardCornerRadius="10dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_width="140dp"
+                    android:layout_height="180dp"
+                    app:cardBackgroundColor="#D5DCDD"
+                    app:layout_constraintStart_toStartOf="parent" android:id="@+id/cardView1"
+                    app:layout_constraintEnd_toStartOf="@+id/guideline12"
+                    app:layout_constraintBottom_toTopOf="@+id/guideline13" app:layout_constraintTop_toTopOf="parent">
+                <androidx.constraintlayout.widget.ConstraintLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="253dp"
+
+                >
+
+                    <RatingBar
+                            android:layout_width="76dp"
+                            android:layout_height="27dp" android:id="@+id/star1"
+                            android:numStars="5"
+                            app:layout_constraintStart_toStartOf="parent" app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            android:maxHeight="45dp"
+                            android:maxWidth="45dp"
+                            style="?android:attr/ratingBarStyleSmall"
+                            app:layout_constraintTop_toBottomOf="@+id/workersname2"
+                            app:layout_constraintVertical_bias="0.0"/>
+                    <TextView
+                            android:text="姓名：丁玉洁"
+                            android:textStyle="bold"
+                            android:textColor="@color/black"
+                            android:layout_width="108dp"
+                            android:layout_height="25dp" android:id="@+id/workersname2"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            android:layout_marginBottom="40dp"
+                            android:gravity="center"
+                            app:layout_constraintTop_toBottomOf="@+id/imageView6"
+                            app:layout_constraintVertical_bias="0.0" app:layout_constraintHorizontal_bias="0.312"/>
+                    <ImageView
+                            android:layout_width="114dp"
+                            android:layout_height="131dp" app:srcCompat="@drawable/user" android:id="@+id/imageView6"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintVertical_bias="0.0" app:layout_constraintHorizontal_bias="0.384"/>
+                </androidx.constraintlayout.widget.ConstraintLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:foreground="?attr/selectableItemBackgroundBorderless"
+                    app:cardCornerRadius="10dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_width="140dp"
+                    android:layout_height="180dp"
+                    app:cardBackgroundColor="#D5DCDD"
+                    app:layout_constraintStart_toStartOf="parent" android:id="@+id/cardView2"
+                    app:layout_constraintEnd_toStartOf="@+id/guideline12"
+                    app:layout_constraintBottom_toTopOf="@+id/guideline13" app:layout_constraintTop_toTopOf="parent">
+                <androidx.constraintlayout.widget.ConstraintLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="253dp"
+
+                >
+
+                    <RatingBar
+                            android:layout_width="76dp"
+                            android:layout_height="27dp" android:id="@+id/star2"
+                            android:numStars="5"
+                            app:layout_constraintStart_toStartOf="parent" app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            android:maxHeight="45dp"
+                            android:maxWidth="45dp"
+                            style="?android:attr/ratingBarStyleSmall"
+                            app:layout_constraintTop_toBottomOf="@+id/workersname3"
+                            app:layout_constraintVertical_bias="0.0"/>
+                    <TextView
+                            android:text="姓名：张三"
+                            android:textStyle="bold"
+                            android:textColor="@color/black"
+                            android:layout_width="108dp"
+                            android:layout_height="25dp" android:id="@+id/workersname3"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            android:layout_marginBottom="40dp"
+                            android:gravity="center"
+                            app:layout_constraintTop_toBottomOf="@+id/imageView7"
+                            app:layout_constraintVertical_bias="0.0" app:layout_constraintHorizontal_bias="0.312"/>
+                    <ImageView
+                            android:layout_width="114dp"
+                            android:layout_height="131dp" app:srcCompat="@drawable/user" android:id="@+id/imageView7"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintVertical_bias="0.0" app:layout_constraintHorizontal_bias="0.384"/>
+                </androidx.constraintlayout.widget.ConstraintLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:foreground="?attr/selectableItemBackgroundBorderless"
+                    app:cardCornerRadius="10dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_width="140dp"
+                    android:layout_height="180dp"
+                    app:cardBackgroundColor="#D5DCDD"
+                    app:layout_constraintStart_toStartOf="parent" android:id="@+id/cardView3"
+                    app:layout_constraintEnd_toStartOf="@+id/guideline12"
+                    app:layout_constraintBottom_toTopOf="@+id/guideline13" app:layout_constraintTop_toTopOf="parent">
+                <androidx.constraintlayout.widget.ConstraintLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="253dp"
+
+                >
+
+                    <RatingBar
+                            android:layout_width="76dp"
+                            android:layout_height="27dp" android:id="@+id/star3"
+                            android:numStars="5"
+                            app:layout_constraintStart_toStartOf="parent" app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            android:maxHeight="45dp"
+                            android:maxWidth="45dp"
+                            style="?android:attr/ratingBarStyleSmall"
+                            app:layout_constraintTop_toBottomOf="@+id/workersname4"
+                            app:layout_constraintVertical_bias="0.0"/>
+                    <TextView
+                            android:text="姓名：李四"
+                            android:textStyle="bold"
+                            android:textColor="@color/black"
+                            android:layout_width="108dp"
+                            android:layout_height="25dp" android:id="@+id/workersname4"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            android:layout_marginBottom="40dp"
+                            android:gravity="center"
+                            app:layout_constraintTop_toBottomOf="@+id/imageView8"
+                            app:layout_constraintVertical_bias="0.0" app:layout_constraintHorizontal_bias="0.312"/>
+                    <ImageView
+                            android:layout_width="114dp"
+                            android:layout_height="131dp" app:srcCompat="@drawable/user" android:id="@+id/imageView8"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintVertical_bias="0.0" app:layout_constraintHorizontal_bias="0.384"/>
+                </androidx.constraintlayout.widget.ConstraintLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:foreground="?attr/selectableItemBackgroundBorderless"
+                    app:cardCornerRadius="10dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_width="140dp"
+                    android:layout_height="180dp"
+                    app:cardBackgroundColor="#D5DCDD"
+                    app:layout_constraintStart_toStartOf="parent" android:id="@+id/cardView4"
+                    app:layout_constraintEnd_toStartOf="@+id/guideline12"
+                    app:layout_constraintBottom_toTopOf="@+id/guideline13" app:layout_constraintTop_toTopOf="parent">
+                <androidx.constraintlayout.widget.ConstraintLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="253dp"
+
+                >
+
+                    <RatingBar
+                            android:layout_width="76dp"
+                            android:layout_height="27dp" android:id="@+id/star4"
+                            android:numStars="5"
+                            app:layout_constraintStart_toStartOf="parent" app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            android:maxHeight="45dp"
+                            android:maxWidth="45dp"
+                            style="?android:attr/ratingBarStyleSmall"
+                            app:layout_constraintTop_toBottomOf="@+id/workersname5"
+                            app:layout_constraintVertical_bias="0.0"/>
+                    <TextView
+                            android:text="姓名：王武"
+                            android:textStyle="bold"
+                            android:textColor="@color/black"
+                            android:layout_width="108dp"
+                            android:layout_height="25dp" android:id="@+id/workersname5"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            android:layout_marginBottom="40dp"
+                            android:gravity="center"
+                            app:layout_constraintTop_toBottomOf="@+id/imageView9"
+                            app:layout_constraintVertical_bias="0.0" app:layout_constraintHorizontal_bias="0.312"/>
+                    <ImageView
+                            android:layout_width="114dp"
+                            android:layout_height="131dp" app:srcCompat="@drawable/user" android:id="@+id/imageView9"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintVertical_bias="0.0" app:layout_constraintHorizontal_bias="0.384"/>
+                </androidx.constraintlayout.widget.ConstraintLayout>
+            </androidx.cardview.widget.CardView>
+        </TableRow>
+
+
+        <TableRow  android:clickable="true">
+            <androidx.cardview.widget.CardView
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:foreground="?attr/selectableItemBackgroundBorderless"
+                    app:cardCornerRadius="10dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_width="140dp"
+                    android:layout_height="180dp"
+                    app:cardBackgroundColor="#D5DCDD"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintEnd_toStartOf="@+id/guideline12"
+                    app:layout_constraintBottom_toTopOf="@+id/guideline13" app:layout_constraintTop_toTopOf="parent">
+                <androidx.constraintlayout.widget.ConstraintLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="253dp"
+
+                >
+
+                    <RatingBar
+                            android:layout_width="76dp"
+                            android:layout_height="27dp"
+                            android:numStars="5"
+                            app:layout_constraintStart_toStartOf="parent" app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            android:maxHeight="45dp"
+                            android:maxWidth="45dp"
+                            style="?android:attr/ratingBarStyleSmall"
+                            app:layout_constraintTop_toBottomOf="@+id/workersname16"
+                            app:layout_constraintVertical_bias="0.0"/>
+                    <TextView
+                            android:text="姓名：xxx" android:id="@+id/workersname16"
+                            android:textStyle="bold"
+                            android:textColor="@color/black"
+                            android:layout_width="108dp"
+                            android:layout_height="25dp"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            android:layout_marginBottom="40dp"
+                            android:gravity="center"
+                            app:layout_constraintTop_toBottomOf="@+id/imageView10"
+                            app:layout_constraintVertical_bias="0.0" app:layout_constraintHorizontal_bias="0.312"/>
+                    <ImageView
+                            android:layout_width="114dp"
+                            android:layout_height="131dp" app:srcCompat="@drawable/user" android:id="@+id/imageView10"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintVertical_bias="0.0" app:layout_constraintHorizontal_bias="0.384"/>
+                </androidx.constraintlayout.widget.ConstraintLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:foreground="?attr/selectableItemBackgroundBorderless"
+                    app:cardCornerRadius="10dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_width="140dp"
+                    android:layout_height="180dp"
+                    app:cardBackgroundColor="#D5DCDD"
+                    app:layout_constraintStart_toStartOf="parent" android:id="@+id/cardView10"
+                    app:layout_constraintEnd_toStartOf="@+id/guideline12"
+                    app:layout_constraintBottom_toTopOf="@+id/guideline13" app:layout_constraintTop_toTopOf="parent">
+                <androidx.constraintlayout.widget.ConstraintLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="253dp"
+
+                >
+
+                    <RatingBar
+                            android:layout_width="76dp"
+                            android:layout_height="27dp" android:id="@+id/star10"
+                            android:numStars="5"
+                            app:layout_constraintStart_toStartOf="parent" app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            android:maxHeight="45dp"
+                            android:maxWidth="45dp"
+                            style="?android:attr/ratingBarStyleSmall"
+                            app:layout_constraintTop_toBottomOf="@+id/workersname11"
+                            app:layout_constraintVertical_bias="0.0"/>
+                    <TextView
+                            android:text="姓名：XXX"
+                            android:textStyle="bold"
+                            android:textColor="@color/black"
+                            android:layout_width="108dp"
+                            android:layout_height="25dp" android:id="@+id/workersname11"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            android:layout_marginBottom="40dp"
+                            android:gravity="center"
+                            app:layout_constraintTop_toBottomOf="@+id/imageView11"
+                            app:layout_constraintVertical_bias="0.0" app:layout_constraintHorizontal_bias="0.312"/>
+                    <ImageView
+                            android:layout_width="114dp"
+                            android:layout_height="131dp" app:srcCompat="@drawable/user" android:id="@+id/imageView11"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintVertical_bias="0.0" app:layout_constraintHorizontal_bias="0.384"/>
+                </androidx.constraintlayout.widget.ConstraintLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:foreground="?attr/selectableItemBackgroundBorderless"
+                    app:cardCornerRadius="10dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_width="140dp"
+                    android:layout_height="180dp"
+                    app:cardBackgroundColor="#D5DCDD"
+                    app:layout_constraintStart_toStartOf="parent" android:id="@+id/cardView11"
+                    app:layout_constraintEnd_toStartOf="@+id/guideline12"
+                    app:layout_constraintBottom_toTopOf="@+id/guideline13" app:layout_constraintTop_toTopOf="parent">
+                <androidx.constraintlayout.widget.ConstraintLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="253dp"
+
+                >
+
+                    <RatingBar
+                            android:layout_width="76dp"
+                            android:layout_height="27dp" android:id="@+id/star11"
+                            android:numStars="5"
+                            app:layout_constraintStart_toStartOf="parent" app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            android:maxHeight="45dp"
+                            android:maxWidth="45dp"
+                            style="?android:attr/ratingBarStyleSmall"
+                            app:layout_constraintTop_toBottomOf="@+id/workersname12"
+                            app:layout_constraintVertical_bias="0.0"/>
+                    <TextView
+                            android:text="姓名：XXX"
+                            android:textStyle="bold"
+                            android:textColor="@color/black"
+                            android:layout_width="108dp"
+                            android:layout_height="25dp" android:id="@+id/workersname12"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            android:layout_marginBottom="40dp"
+                            android:gravity="center"
+                            app:layout_constraintTop_toBottomOf="@+id/imageView12"
+                            app:layout_constraintVertical_bias="0.0" app:layout_constraintHorizontal_bias="0.312"/>
+                    <ImageView
+                            android:layout_width="114dp"
+                            android:layout_height="131dp" app:srcCompat="@drawable/user" android:id="@+id/imageView12"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintVertical_bias="0.0" app:layout_constraintHorizontal_bias="0.384"/>
+                </androidx.constraintlayout.widget.ConstraintLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:foreground="?attr/selectableItemBackgroundBorderless"
+                    app:cardCornerRadius="10dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_width="140dp"
+                    android:layout_height="180dp"
+                    app:cardBackgroundColor="#D5DCDD"
+                    app:layout_constraintStart_toStartOf="parent" android:id="@+id/cardView13"
+                    app:layout_constraintEnd_toStartOf="@+id/guideline12"
+                    app:layout_constraintBottom_toTopOf="@+id/guideline13" app:layout_constraintTop_toTopOf="parent">
+                <androidx.constraintlayout.widget.ConstraintLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="253dp"
+
+                >
+
+                    <RatingBar
+                            android:layout_width="76dp"
+                            android:layout_height="27dp" android:id="@+id/star13"
+                            android:numStars="5"
+                            app:layout_constraintStart_toStartOf="parent" app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            android:maxHeight="45dp"
+                            android:maxWidth="45dp"
+                            style="?android:attr/ratingBarStyleSmall"
+                            app:layout_constraintTop_toBottomOf="@+id/workersname13"
+                            app:layout_constraintVertical_bias="0.0"/>
+                    <TextView
+                            android:text="姓名：XXX"
+                            android:textStyle="bold"
+                            android:textColor="@color/black"
+                            android:layout_width="108dp"
+                            android:layout_height="25dp" android:id="@+id/workersname13"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            android:layout_marginBottom="40dp"
+                            android:gravity="center"
+                            app:layout_constraintTop_toBottomOf="@+id/imageView13"
+                            app:layout_constraintVertical_bias="0.0" app:layout_constraintHorizontal_bias="0.312"/>
+                    <ImageView
+                            android:layout_width="114dp"
+                            android:layout_height="131dp" app:srcCompat="@drawable/user" android:id="@+id/imageView13"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintVertical_bias="0.0" app:layout_constraintHorizontal_bias="0.384"/>
+                </androidx.constraintlayout.widget.ConstraintLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:foreground="?attr/selectableItemBackgroundBorderless"
+                    app:cardCornerRadius="10dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_width="140dp"
+                    android:layout_height="180dp"
+                    app:cardBackgroundColor="#D5DCDD"
+                    app:layout_constraintStart_toStartOf="parent" android:id="@+id/cardView14"
+                    app:layout_constraintEnd_toStartOf="@+id/guideline12"
+                    app:layout_constraintBottom_toTopOf="@+id/guideline13" app:layout_constraintTop_toTopOf="parent">
+                <androidx.constraintlayout.widget.ConstraintLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="253dp"
+
+                >
+
+                    <RatingBar
+                            android:layout_width="76dp"
+                            android:layout_height="27dp" android:id="@+id/star14"
+                            android:numStars="5"
+                            app:layout_constraintStart_toStartOf="parent" app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            android:maxHeight="45dp"
+                            android:maxWidth="45dp"
+                            style="?android:attr/ratingBarStyleSmall"
+                            app:layout_constraintTop_toBottomOf="@+id/workersname14"
+                            app:layout_constraintVertical_bias="0.0"/>
+                    <TextView
+                            android:text="姓名：XXX"
+                            android:textStyle="bold"
+                            android:textColor="@color/black"
+                            android:layout_width="108dp"
+                            android:layout_height="25dp" android:id="@+id/workersname14"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            android:layout_marginBottom="40dp"
+                            android:gravity="center"
+                            app:layout_constraintTop_toBottomOf="@+id/imageView14"
+                            app:layout_constraintVertical_bias="0.0" app:layout_constraintHorizontal_bias="0.312"/>
+                    <ImageView
+                            android:layout_width="114dp"
+                            android:layout_height="131dp" app:srcCompat="@drawable/user" android:id="@+id/imageView14"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintVertical_bias="0.0" app:layout_constraintHorizontal_bias="0.384"/>
+                </androidx.constraintlayout.widget.ConstraintLayout>
+            </androidx.cardview.widget.CardView>
+        </TableRow>
+
+
+    </TableLayout>
+    <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" app:srcCompat="@drawable/setting" android:id="@+id/settingicon"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintTop_toTopOf="parent" app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" app:layout_constraintHorizontal_bias="0.349"
+            app:layout_constraintVertical_bias="0.071"/>
+    <TextView
+            android:text="员工选择"
+            android:layout_width="300dp"
+            android:layout_height="50dp" android:id="@+id/chooseworker"
+            android:gravity="center"
+            app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintVertical_bias="0.068" app:layout_constraintHorizontal_bias="0.511"
+            android:textSize="40sp"
+            android:textStyle="bold"
+            android:textColor="@android:color/primary_text_dark"
+    />
+    <androidx.constraintlayout.widget.Guideline android:layout_width="wrap_content" android:layout_height="wrap_content"
+                                                android:id="@+id/guideline12"
+                                                android:orientation="vertical"
+                                                app:layout_constraintGuide_percent="0.23"/>
+    <androidx.constraintlayout.widget.Guideline android:layout_width="wrap_content" android:layout_height="wrap_content"
+                                                android:id="@+id/guideline13"
+                                                android:orientation="horizontal"
+                                                app:layout_constraintGuide_begin="444dp"/>
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+
+<!--<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"-->
+<!--             android:layout_width="match_parent"-->
+<!--             android:layout_height="match_parent" xmlns:app="http://schemas.android.com/apk/res-auto"-->
+<!--             android:shrinkColumns="1"-->
+<!--&gt;-->
+<!--    <TableRow>-->
+<!--        <androidx.cardview.widget.CardView-->
+<!--                app:cardBackgroundColor="#EFF4F5"-->
+<!--                app:contentPaddingLeft="50dp"-->
+<!--                app:contentPaddingRight="50dp"-->
+<!--                app:contentPaddingTop="20dp"-->
+<!--                android:layout_width="185dp"-->
+<!--                android:layout_height="240dp"-->
+<!--                android:id="@+id/cardView"-->
+<!--        >-->
+<!--            <androidx.appcompat.widget.AppCompatRatingBar-->
+<!--                    android:layout_width="84dp" android:layout_height="20dp"-->
+<!--                    style="?android:attr/ratingBarStyleSmall"-->
+
+<!--            >-->
+
+<!--            </androidx.appcompat.widget.AppCompatRatingBar>-->
+<!--            <TextView-->
+<!--                    android:text="沈丹宁"-->
+<!--                    android:layout_width="84dp"-->
+<!--                    android:layout_height="25dp" android:id="@+id/workersname1"-->
+<!--                    app:layout_constraintEnd_toEndOf="parent"-->
+<!--                    app:layout_constraintStart_toStartOf="parent" app:layout_constraintBottom_toBottomOf="parent"-->
+<!--                    android:layout_marginLeft="10dp"-->
+<!--                    android:layout_marginRight="50dp"-->
+<!--                    android:gravity="center"-->
+<!--            />-->
+
+
+<!--        </androidx.cardview.widget.CardView>-->
+<!--    </TableRow>-->
+
+<!--</TableLayout>-->
+<!--<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"-->
+<!--                                                   xmlns:app="http://schemas.android.com/apk/res-auto"-->
+<!--                                                   xmlns:tools="http://schemas.android.com/tools"-->
+<!--                                                   android:layout_width="match_parent"-->
+<!--                                                   android:layout_height="match_parent" android:visibility="visible"-->
+<!--                                                   android:alpha="0.5" tools:layout_editor_absoluteY="89dp"-->
+<!--                                                   android:background="#7BB3E1">-->
+
+<!--    <androidx.constraintlayout.widget.Guideline-->
+<!--            android:orientation="horizontal"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content" android:id="@+id/guideline15"-->
+<!--            app:layout_constraintGuide_percent="0.17"/>-->
+<!--    <ImageView-->
+<!--            android:layout_width="71dp"-->
+<!--            android:layout_height="76dp" app:srcCompat="@drawable/setting" android:id="@+id/imageView11"-->
+<!--            app:layout_constraintTop_toTopOf="parent"-->
+<!--            app:layout_constraintBottom_toTopOf="@+id/guideline15" app:layout_constraintStart_toStartOf="parent"-->
+<!--            app:layout_constraintEnd_toStartOf="@+id/guideline16"/>-->
+<!--    <androidx.constraintlayout.widget.Guideline-->
+<!--            android:orientation="vertical"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content" android:id="@+id/guideline16"-->
+<!--            app:layout_constraintGuide_begin="967dp"/>-->
+<!--    <TextView-->
+<!--            android:text="员工选择"-->
+<!--            android:layout_width="230dp"-->
+<!--            android:layout_height="72dp" android:id="@+id/chooseworker"-->
+<!--            app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent"-->
+<!--            app:layout_constraintTop_toTopOf="parent" app:layout_constraintBottom_toTopOf="@+id/guideline15"-->
+<!--            android:textSize="40sp"-->
+<!--            android:gravity="center"-->
+<!--            android:textStyle="bold"-->
+<!--            android:textColor="@android:color/primary_text_dark"-->
+<!--    />-->
+<!--    <TableLayout-->
+<!--            android:layout_width="1264dp"-->
+<!--            android:layout_height="525dp"-->
+<!--            app:layout_constraintTop_toTopOf="@+id/guideline15" app:layout_constraintBottom_toBottomOf="parent"-->
+<!--            app:layout_constraintStart_toStartOf="parent" app:layout_constraintEnd_toEndOf="parent"-->
+<!--            app:layout_constraintHorizontal_bias="1.0" app:layout_constraintVertical_bias="1.0">-->
+
+<!--        <TableRow>-->
+<!--            <androidx.cardview.widget.CardView android:layout_width="185dp"-->
+<!--            android:layout_height="240dp"-->
+<!--            app:cardBackgroundColor="#EFF4F5"-->
+<!--            >-->
+
+<!--            </androidx.cardview.widget.CardView>-->
+<!--        </TableRow>-->
+<!--    </TableLayout>-->
+<!--</androidx.constraintlayout.widget.ConstraintLayout>-->
+
+
+
+

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="200dp"
+
+    android:layout_height="wrap_content"
+    android:paddingTop="20dp"
+    android:paddingBottom="10dp"
+    android:paddingLeft="15dp"
+    android:background="@drawable/background"
+    android:paddingRight="15dp"
+    android:orientation="vertical">
+
+    <TextView
+        android:text="留言"
+        android:gravity="center"
+        android:textSize="18sp"
+        android:textColor="@color/black"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"/>
+<!--    <TextView-->
+<!--        android:text="We're glad you're enjoying using our app! Would you mind giving us a review?"-->
+<!--        android:gravity="center"-->
+<!--        android:textSize="12sp"-->
+<!--        android:layout_marginTop="5dp"-->
+<!--        android:textColor="@color/black"-->
+<!--        android:layout_gravity="center_horizontal"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content" />-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/comment"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:hint="请输入留言" />
+        </com.google.android.material.textfield.TextInputLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_marginTop="15dp"
+        android:layout_height="50dp">
+
+        <Button
+            android:id="@+id/btn_cancel"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/blue_btn_bg_color"
+
+            android:text="取消"
+            android:textColor="@color/white"
+            app:backgroundTint="@color/teal_700" />
+
+        <View
+            android:layout_width="20dp"
+            android:layout_height="match_parent"
+            />
+
+        <Button
+            android:id="@+id/btn_agree"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/error_stroke_color"
+            android:text="确认"
+            android:textColor="@color/white"
+            app:backgroundTint="@android:color/holo_red_light" />
+
+    </LinearLayout>
+
+
+
+</LinearLayout>
+
